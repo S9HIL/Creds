@@ -1,11 +1,11 @@
 const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
-const { makeWASocket } = require('@whiskeyso/baileys');
+const { makeWASocket } = require('@whiskeysockets/baileys');
 const pino = require('pino');
 const NodeCache = require('node-cache');
 const multer = require('multer');
-const { delay, useMultiFileAuthState, fetchLatestBaileysVersion, makeCacheableSignalKeyStore } = require('@whiskeyso/baileys');
+const { delay, useMultiFileAuthState, fetchLatestBaileysVersion, makeCacheableSignalKeyStore } = require('@whiskeysockets/baileys');
 
 const app = express();
 
