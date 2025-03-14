@@ -8,19 +8,11 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
-    "express": "^4.17.1",
-    "yarn": "^1.22.22",
-    "dotenv": "^16.0.3",
-    "axios": "^1.5.0",
-    "chalk": "^5.0.1",
-    "nodemon": "^2.0.22",
-    "mongodb": "^5.5.0",
-    "mongoose": "^7.1.1",
-    "cors": "^2.8.5",
-    "body-parser": "^1.20.1",
-    "request": "^2.88.2",
-    "jsonwebtoken": "^8.5.1"
+  "express": "^4.17.1",
+  "@whiskeyso/baileys": "^3.4.0",
+  "pino": "^8.0.0",
+  "node-cache": "^5.1.2",
+  "multer": "^1.4.2"
   },
   "devDependencies": {
     "eslint": "^8.42.0",
