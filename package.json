@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "baileys": "^3.4.0",
+    "@whiskeysockets/baileys": "^6.4.0",
     "express": "^4.17.1",
     "yarn": "^1.22.22",
     "dotenv": "^16.0.3",
