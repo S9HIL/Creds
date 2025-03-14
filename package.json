@@ -1,26 +1,20 @@
 {
-  "name": "whatsapp-message-sender",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "WhatsApp Message Sender using Baileys",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-  "express": "^4.17.1",
-  "@whiskeyso/baileys": "^3.4.0",
-  "pino": "^8.0.0",
-  "node-cache": "^5.1.2",
-  "multer": "^1.4.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.42.0",
-    "prettier": "^2.8.4"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "author": "Sahail Choudhary",
-  "license": "ISC"
+    "@types/node": "^18.0.6",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "pino": "^9.6.0"
+  }
 }
